@@ -212,7 +212,7 @@ header nav div {
 }
 header nav .navLinks {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 1.6rem;
 }
 header nav .navLinks a {
