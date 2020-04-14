@@ -1,1 +1,26 @@
 // Navigation Styles here
+
+header {
+    width: 100%;
+    border-bottom: @navigation-border;
+
+    nav {
+        .flexin(row, space-between, center);
+        margin: 30px 0;
+        padding: 1%;
+        color: @font-color;
+        div{
+            width: 48%;
+        }
+       
+        .navLinks {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.6rem;
+            a{
+            text-decoration: none;
+            color: @font-color;}
+        }
+    }
+
+}
