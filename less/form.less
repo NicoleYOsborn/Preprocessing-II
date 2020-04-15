@@ -1,0 +1,30 @@
+.content-form {
+    .flexin(column, center, center);
+    border-top: @navigation-border;
+    padding: 4% 0;
+
+    @media @iphone{
+        text-align: center;
+        h2{
+            font-size: 2.7rem;
+        }
+    }
+
+    form {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+
+        label{
+            color: @font-color;
+            font-size: 1.6rem;
+            margin: 4% 0 1% 0;
+        }
+
+        input, textarea{
+            color: @shark;
+            background-color: lightgray;
+        }
+
+    }
+}
